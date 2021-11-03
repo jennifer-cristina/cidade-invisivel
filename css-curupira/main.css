@@ -1,0 +1,74 @@
+main {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 80px;
+  font-family: "Open Sans", sans-serif;
+}
+
+main h1 {
+  font-size: 140px;
+  color: rgba(255, 255, 255, 0);
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #fff;
+}
+
+.resumo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.sinopse {
+  width: 800px;
+  font-size: 30px;
+  font-weight: 200;
+  margin: 13px;
+  color: #fff;
+  height: 200px;
+  width: 500px;
+  font-style: italic;
+}
+
+main h2 {
+  display: flex;
+  align-items: flex-end;
+  color: #fff;
+  transform: rotate(270deg);
+  font-size: 2.25rem;
+  color: darkred;
+  height: 100px;
+  width: 100px;
+  font-weight: 500px;
+}
+
+.descricao {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #fff;
+  font-size: 20px;
+  font-style: italic;
+  padding: 20px;
+  padding-left: 50px;
+}
+
+.Ator {
+  width: 190px;
+}
+
+.Personagem {
+  width: 150px;
+  margin: 20px;
+}
+
+.Entidade {
+  margin: 20px;
+}
+
+.a,
+.b {
+  font-size: 50px;
+  color: darkred;
+}
