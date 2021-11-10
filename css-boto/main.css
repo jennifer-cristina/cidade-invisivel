@@ -5,6 +5,7 @@ main {
   justify-content: flex-start;
   padding: 0 80px;
   font-family: "Open Sans", sans-serif;
+  margin-top: 30px;
 }
 
 .titulo {
@@ -22,7 +23,8 @@ main {
 .titulo p {
   position: absolute;
   top: 10px;
-  right: 370px;
+  right: 590px;
+  margin-top: 5px;
 }
 
 .titulo h1 {
