@@ -1,0 +1,98 @@
+main {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 80px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.titulo {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  width: 70%;
+  font-size: 35px;
+  margin-top: 50px;
+  color: rgba(255, 255, 255, 0);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff;
+}
+
+.titulo p {
+  position: absolute;
+  top: 10px;
+  right: 370px;
+}
+
+.titulo h1 {
+  font-size: 140px;
+  color: rgba(255, 255, 255, 0);
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #fff;
+}
+
+.resumo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.sinopse {
+  width: 570px;
+  font-size: 28px;
+  font-weight: 200;
+  margin: 13px;
+  color: #fff;
+  height: 190px;
+  font-style: italic;
+  line-height: 33px;
+}
+
+.resumo h2 {
+  display: flex;
+  align-items: flex-end;
+  color: #fff;
+  transform: rotate(270deg);
+  font-size: 2.25rem;
+  color: darkred;
+  height: 100px;
+  width: 100px;
+  margin-left: -48px;
+  font-weight: 500px;
+}
+
+.descricao {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #fff;
+  font-size: 20px;
+  font-style: italic;
+  /* padding: 20px; */
+  padding-left: 50px;
+}
+
+.Ator {
+  width: 190px;
+}
+
+.Personagem {
+  width: 150px;
+  margin: 20px;
+}
+
+.Entidade {
+  margin: 20px;
+}
+
+.a,
+.b {
+  font-size: 50px;
+  color: darkred;
+}
+
+footer {
+  margin-top: 25px;
+}
