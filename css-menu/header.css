@@ -33,6 +33,13 @@ header {
 .dropdown-submenu {
   display: none;
   color: #fff;
+  display: none;
+  position: absolute;
+  list-style: none;
+  background-color: #0009;
+  width: 90px;
+  color: #fff;
+  flex-direction: column;
 }
 
 .dropdown-menu > li > a:hover {
@@ -47,16 +54,74 @@ header {
 }
 
 .dropdown-submenu li {
-  padding: 15px;
+  padding: 10px;
   font-size: 19px;
 }
 
 .dropdown-menu li:hover > .dropdown-submenu {
-  display: block;
-  position: absolute;
-  list-style: none;
-  background-color: #0009;
-  width: 90px;
-  color: #fff;
-  top: 65px;
+  display: flex;
+}
+
+@media (max-width: 720px) {
+  header {
+    position: absolute;
+    background-color: #0000;
+    padding: 0 20px;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    background-blend-mode: darken;
+    top: 0;
+    left: 0;
+    z-index: 2;
+  }
+
+  .logo {
+    position: absolute;
+    display: block;
+    top: 20px;
+    min-width: 40px;
+    height: 40px;
+    background-image: url(../img-menu/netflix.png);
+    background-repeat: no-repeat;
+    z-index: 3;
+  }
+  .logo img {
+    display: none;
+  }
+
+  .menu > ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+  }
+
+  .dropdown-menu > li {
+    font-size: 2rem;
+  }
+
+  .dropdown-submenu {
+    display: flex;
+    position: relative;
+  }
+
+  .dropdown-submenu > li {
+    font-size: 1rem;
+    padding-left: 20px;
+  }
+
+  .dropdown-submenu li:hover {
+    background-color: transparent;
+  }
 }

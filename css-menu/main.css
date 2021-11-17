@@ -36,10 +36,35 @@ main a {
   font-size: 1.5rem;
   transition: all 0.5s;
   margin-top: 40px;
+  z-index: 1;
 }
 
 main a:hover {
   border: 1px solid #ed8e17;
   background-color: #000;
   color: #fff;
+}
+
+@media (max-width: 720px) {
+  main {
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 55px;
+  }
+  main p {
+    display: none;
+  }
+  main h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  main h1 {
+    font-size: 4.5rem;
+    text-align: center;
+    line-height: 3.5rem;
+  }
+  main h1 span {
+    font-size: 3rem;
+    font-weight: 400;
+  }
 }
